@@ -1,3 +1,5 @@
+package BasicStructures;
+
 public class Node {
   public Node rightNode;
   public Node leftNode;

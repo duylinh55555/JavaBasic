@@ -1,3 +1,5 @@
+package BasicStructures;
+
 public class Stack extends LinkedList {
 	protected void EmptyNotification() {
 		System.out.println("Stack is empty");

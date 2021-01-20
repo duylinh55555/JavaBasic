@@ -1,4 +1,4 @@
-package Collections;
+package CollectionsExample;
 
 import java.util.*;
 
@@ -7,7 +7,15 @@ public class Student {
    private String name;
    private Date dateOfBirth;
    private String major;
-   private float gpa;
+   private double gpa;
+
+   public Student(String id, String name, Date dateOfBirth, String major, double gpa) {
+      this.id = id;
+      this.name = name;
+      this.dateOfBirth = dateOfBirth;
+      this.major = major;
+      this.gpa = gpa;
+   }
 
    public String GetID() {
       return this.id;
@@ -41,7 +49,7 @@ public class Student {
       this.major = major;
    }
 
-   public float GetGPA() {
+   public double GetGPA() {
       return this.gpa;
    }
 

@@ -1,3 +1,5 @@
+package BasicStructures;
+
 import java.util.Stack;
 
 public class BinarySearchTree {
