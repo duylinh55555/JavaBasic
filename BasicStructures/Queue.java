@@ -1,6 +1,7 @@
 package BasicStructures;
 
 public class Queue extends LinkedList {
+   @Override
    protected void EmptyNotification() {
       System.out.println("Queue is empty");
    }
