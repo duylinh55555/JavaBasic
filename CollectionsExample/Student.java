@@ -97,4 +97,22 @@ public class Student implements Comparable<Student> {
             return -1;
       }
    };
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+
+      if (obj == null || obj.getClass() != this.getClass())
+         return false;
+
+      Student student = (Student) obj;
+
+      return (student.name.equals(this.name) && student.id == this.id);
+   }
+
+   @Override
+   public int hashCode() {
+      return id.hashCode();
+   }
 }
